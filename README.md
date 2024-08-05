@@ -17,3 +17,4 @@ Before running the application locally or deploying it, ensure you have the foll
 - Node.js (v22.3.0 or higher)
 - Docker
 - AWS account with EC2 instance setup
+                                                           --- Build With love by Tapas Mondal
