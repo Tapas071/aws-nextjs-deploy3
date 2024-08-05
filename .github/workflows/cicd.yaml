@@ -14,7 +14,7 @@ jobs:
       - name: Build docker image
         run: docker build -t tapas710/my-nextjs-app .
       - name: Login to docker hub
-        run: docker login -u ${{ tapas710 }} -p ${{ Tapas710@ }}
+        run: docker login -u tapas710 -p Tapas710@
       - name: Publish image to docker hub
         run: docker push tapas710/my-nextjs-app
 
