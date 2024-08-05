@@ -11,9 +11,14 @@ const AwsDemo: React.FC = () => {
         <p className="mt-4 text-lg text-gray-600">
           This site is running on AWS. 🚀
         </p>
-        <p className="mt-4 text-lg text-gray-600">
-         Build with love By Tapas Mondal
-        </p>
+        <div className="flex items-center justify-center min-h-screen bg-gray-100">
+          <div className="p-6 bg-white shadow-lg rounded-lg border border-gray-200">
+            <p className="text-center text-lg font-semibold text-gray-800 animate-bounce">
+              This app is built with ❤️ by{" "}
+              <span className="text-blue-500">Tapas Mondal</span>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
